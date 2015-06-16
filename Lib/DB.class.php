@@ -28,6 +28,7 @@ class DB
 	{
 		return self::D()->getOne($sql);
 	}
+	
 
 
 

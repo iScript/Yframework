@@ -169,7 +169,7 @@ class Uploader
      * @return string
      */
     private function getFileExt()
-    {
+    {   
         //strrchr() 函数查找字符串在另一个字符串中最后一次出现的位置，并返回从该位置到字符串结尾的所有字符。
 		return strtolower( strrchr( $this->file[ "name" ] , '.' ) );
     }
